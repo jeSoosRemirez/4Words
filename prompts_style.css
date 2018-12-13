@@ -3,3 +3,19 @@ body {
     background-size: 100%;
     color: white;
 }
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: royalblue;
+}
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color: red;
+}
