@@ -6,6 +6,7 @@ body {
 
 a:link {
     color: white;
+    background-color: blueviolet;
 }
 
 a:visited {
@@ -18,4 +19,12 @@ a:hover {
 
 a:active {
     color: red;
+    background-color: darkblue;
+}
+
+div {
+    height: 600px;
+    width: 800px;
+    background-image: url("background_div_prompts.jpg");
+    background-size: 100%;
 }
