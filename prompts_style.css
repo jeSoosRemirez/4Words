@@ -23,8 +23,13 @@ a:active {
 }
 
 div {
-    height: 600px;
+    color: darkred;
+    height: 400px;
     width: 800px;
     background-image: url("background_div_prompts.jpg");
     background-size: 100%;
+    padding: 50px;
+    margin: 25px 50px 25px 50px;
+    border: 3px hotpink dotted;
 }
+/* border can be solid, dashed, dotted, double, groove* /
