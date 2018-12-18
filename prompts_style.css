@@ -34,17 +34,62 @@ a:active {
 }
 
 .text {
-  position: relative;
+    position: relative;
 }
+
 .text:after {
-  content: "";
-  position: absolute; top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)) no-repeat 100% 0%;
-  background-size: 100% 100%;
+    content: "";
+    position: absolute; top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)) no-repeat 100%;
+    background-size: 100% 100%;
 }
+
 .text:hover:after {
-  transition: 12s linear;
-  background-size: 0 100%;
+    transition: 12s linear;
+    background-size: 0 100%;
+}
+
+#div1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+#par1  {
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 50px;
+    line-height: 2;
+    font-size: 50px;
+    font-family: "times new roman", times, serif;
+}
+
+#par2  {
+    text-decoration: overline;
+    text-align: right;
+    text-transform: lowercase;
+    letter-spacing: 10px;
+    font-style: italic;
+}
+
+#par3  {
+    text-decoration: line-through;
+    text-align: left;
+    text-transform: capitalize;
+    line-height: 2;
+    font-weight: bold;
+}
+
+#par4  {
+    text-align: left;
+    line-height: 2;
+    font-variant: small-caps;
+}
+
+#par5  {
+    line-height: 2;
+    font-family: arial, helvetica, sans-serif;
 }
