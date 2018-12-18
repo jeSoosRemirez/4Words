@@ -22,7 +22,7 @@ a:active {
     background-color: darkblue;
 }
 
-div {
+.image {
     color: darkred;
     height: 400px;
     width: 800px;
