@@ -8,6 +8,9 @@ yellow #fdbb2d
 
 /* Style for navigation bar */
 
+nav {
+    display: block;
+}
 .nav{
     list-style: none;
     text-align: center;
